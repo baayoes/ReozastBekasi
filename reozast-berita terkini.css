@@ -1,0 +1,222 @@
+body{
+    font-size: larger;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("texturetastic_gray.png");
+    margin-top: 20px;
+}
+
+.rere{
+    border-top: 1px solid black;
+}
+
+.carousel-inner{
+    border-bottom: 4px solid white;
+}
+
+.jumbotron{
+    background-attachment: fixed;
+    background-image: url('background.png');
+    background-size: cover;
+    /* height: 370px; */
+    background-position: center;
+}
+
+.image{
+    filter: drop-shadow(3px 5px 0px rgba(0, 0, 0, 0.233));
+    padding-top: 20px;
+}
+
+
+.col-sm-8{
+    margin-bottom: 40px;
+}
+
+/* .card{
+    background-image: url("19994914.jpg");
+    background-position: bottom;
+    background-size: 150%;
+    color: white;
+} */
+
+/* .about .hr{
+    width: 150px;
+    border-top: 2px solid #343a40;    
+} */
+
+/* .media{
+    border-bottom: 1px solid #00000049;
+    padding-bottom: 10px;
+} */
+
+.display-4{
+    color: white;
+    text-shadow: 3px 4px 0px rgba(0, 0, 0, 0.233);
+    margin-top: 10px;
+}
+
+.media img{
+    width: 200px;
+    height: 150px;
+    /* border-radius: 7px; */
+    /* border:solid rgb(0, 0, 0) 2px; */
+    /* filter: drop-shadow(3px 5px 0px rgba(0, 0, 0, 0.301)); */
+}
+
+#beritaterkini{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.233);
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.nav-item .nav-link:hover{
+    color: white !important;
+}
+
+.abouthr{
+    width: 150px;
+    border-top: 2px solid #343a40;    
+}
+
+.beritatkr{
+    width: 150px;
+    border-top: 2px solid #ffffff;    
+}
+
+#beritaaa{
+    margin-bottom: 50px;
+}
+
+.galery{
+    width: 170px;
+    border-top: 2px solid #343a40;    
+
+}
+
+/* .card{
+    background-image: url("4010449.jpg");
+    background-position: bottom;
+    border: 0px !important;
+} */
+
+.btn{
+    background-image: url("background.png");
+    background-position: center;
+    background-size: cover;
+    border: 0px !important;
+}
+
+#navigasi{
+    background-image: url("background.png") !important;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.199) ;
+    font-size: px;
+
+}
+
+.nav-link::after{
+    color: white !important;
+}
+
+.footer {
+    background-image: url("background.png");
+    background-size: cover;
+	text-align: center;
+	font-size: 14px;
+    color: white;
+    padding: 0px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: -5px 0px 15px rgba(0, 0, 0, 0.199);
+    margin-top: 30px;
+}
+
+.footer .a{
+    padding-top: 25px;
+}
+
+#logonav{
+    margin-right: 10px;
+
+}
+
+.btr{
+    width: 150px;
+    border-top: 2px solid #343a40;   
+}
+
+.mr-3{
+    border: 3px solid white;
+}
+
+.icon a{
+    font-size: 16px;
+    margin: 5px;
+    color: white;
+    text-align: center;
+}
+
+#ikon{
+    margin-right: 3px;
+}
+
+.scrollTop{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 70px;
+    height: 70px;
+    background: url("back.png");
+    border-radius: 50%;
+    background-size: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 100000;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5)) ;
+}
+
+.scrollTop.active{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.card-deck .card{
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356) ;
+    border: 0px !important;
+}
+
+
+.dropdown-menu{
+    background-attachment: fixed;
+    background-image: url("background.png");
+    background-size: cover;
+    background-position: center;
+    border: 0px !important;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.103) ;
+}
+
+.dropdown-item{
+    color: white !important;
+}
+
+.dropdown-item:hover{
+    background-color: rgba(255, 255, 255, 0.158);
+}
+
+.nav-link::after{
+    color: rgba(255, 255, 255, 0.5) !important;
+}
